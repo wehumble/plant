@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5f1;
+  background-image: url(bdest.webp);
+  background-size: cover;
+  color: #333;
+  max-width: 700px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header, main, footer, section {
+  background: white;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #1f5c3f;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: grid;
+  gap: 1rem;
+}
+
+label {
+  display: grid;
+  font-weight: 600;
+  gap: 0.25rem;
+}
+
+input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 0.6rem;
+  border: none;
+  background-color: #2d8f61;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #26734f;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: #666;
+}

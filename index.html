@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plant Editor App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Plant Editor App</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Edit Plant Details</h2>
+      <form id="plant-form">
+        <label>
+          Name:
+          <input type="text" name="name" id="name" required />
+        </label>
+
+        <label>
+          Leaf:
+          <input type="text" name="leaf" id="leaf" required />
+        </label>
+
+        <label>
+          Roots:
+          <input type="text" name="roots" id="roots" required />
+        </label>
+
+        <label>
+          Stem:
+          <input type="text" name="stem" id="stem" required />
+        </label>
+
+        <label>
+          Habitat:
+          <input type="text" name="habitat" id="habitat" required />
+        </label>
+
+        <label>
+          Pollinators (comma-separated):
+          <input type="text" name="pollinator" id="pollinator" />
+        </label>
+
+        <button type="submit">Update Plant</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Live Description</h2>
+      <p id="plant-description">The plant description will appear here...</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>Plant Editor App &copy; 2025</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
